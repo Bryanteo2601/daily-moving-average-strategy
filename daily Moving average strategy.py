@@ -15,8 +15,8 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest, StockLatestTradeRequest
 from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
 # 1. Initialize Alpaca
-API_KEY = "PKJJPOFGNPK3XQ5NAD6EUSD5KJ"
-SECRET_KEY = "5N1GgVQuAsmgGxB7fMRY7CDVjFHFcMww4U9WaFWoKJcs"
+API_KEY = ""
+SECRET_KEY = ""
 SYMBOL = "NVDA"
 trading_client = TradingClient('API_KEY', 'SECRET_KEY', paper=True)
 data_client = StockHistoricalDataClient(API_KEY, SECRET_KEY)
